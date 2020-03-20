@@ -1,0 +1,37 @@
+/* regole generali */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+span{
+  display: inline-block;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+  width: 80%;
+  margin: 25vh auto;
+  border-radius: 20px;
+  border: 2px solid black;
+  animation: container 2s linear 3s;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+@keyframes container{
+  0% {transform:rotate(360deg);}
+}
+
+h1{
+color: red;
+font-size: 50px;
+}
+span{
+  font-size: 80px;
+  color: rgba(0, 0, 0, 0.8);
+  /* padding: 10px;
+  border-radius: 100%;
+  border: 1px solid black; */
+}
