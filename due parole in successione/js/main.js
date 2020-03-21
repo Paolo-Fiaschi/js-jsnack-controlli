@@ -12,9 +12,9 @@ console.log(parola1.length, parola2.length);
 
 // verificare quale parola è più lunga e quale più corta
 if (parola1.length < parola2.length) {
-  ordineFinale = "L'ordine delle parole dalla più corta alla più lunga è: " + parola1 + ", " + parola2;
+  ordineFinale = "L'ordine delle parole dalla più corta alla più lunga è: " + parola1 + " ---> " + parola2;
 } else if (parola2.length < parola1.length) {
-  ordineFinale = "L'ordine delle parole dalla più corta alla più lunga è: " + parola2 + ", " + parola1;
+  ordineFinale = "L'ordine delle parole dalla più corta alla più lunga è: " + parola2 + " ---> " + parola1;
 } else{
   ordineFinale = "Entrambe le parole sono: " + parola1;
 }

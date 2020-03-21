@@ -17,11 +17,15 @@ span{
 }
 
 h1{
-  color: blue;
+  color: rgba(18, 174, 225, 1);
   height: 100%;
   font-size: 38px;
   border-radius: 50%;
   border: 2px solid black;
   padding: 7%;
-  background-color: rgba(0, 128, 0, 0.6);
+  background-color: rgba(0, 128, 0, 0.5);
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-decoration-style: double;
+  text-decoration-color: rgba(18, 174, 225, 0.4);
 }
