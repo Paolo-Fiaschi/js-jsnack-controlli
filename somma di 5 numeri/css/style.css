@@ -1,0 +1,40 @@
+/* regole generali */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+span{
+  display: inline-block;
+}
+.sfondo{
+  background-image: url(https://c8.alamy.com/compit/p2je1g/i-numeri-di-caduta-cifre-bellissimo-sfondo-wallpaper-design-p2je1g.jpg);
+}
+.numeri{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  margin: 25vh auto;
+  position: relative;
+  animation: somma 10s linear infinite;
+}
+@keyframes somma{
+  0% {left:0;}
+  50% {left:calc(50%);}
+  100% {left:110%;}
+}
+
+
+h1{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  color: white;
+  font-size: 43px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-decoration-style: wavy;
+  text-shadow: 10px 10px 10px #12AEE1;
+}
